@@ -190,6 +190,7 @@ in [Naming conventions for provider packages](https://github.com/apache/airflow/
 | [aws.sensors.glue.AwsGlueJobSensor](https://github.com/apache/airflow/blob/master/airflow/providers/amazon/aws/sensors/glue.py)                                      |
 | [aws.sensors.redshift.AwsRedshiftClusterSensor](https://github.com/apache/airflow/blob/master/airflow/providers/amazon/aws/sensors/redshift.py)                      |
 | [aws.sensors.sagemaker_training.SageMakerTrainingSensor](https://github.com/apache/airflow/blob/master/airflow/providers/amazon/aws/sensors/sagemaker_training.py)   |
+| [aws.sensors.s3_key.S3UploadSessionCompleteSensor](https://github.com/apache/airflow/blob/master/airflow/providers/amazon/aws/sensors/s3_upload_session_complete.py) |                                                  | [sensors.s3_key_sensor.S3KeySensor](https://github.com/apache/airflow/blob/v1-10-stable/airflow/sensors/s3_key_sensor.py)                                                                           |
 
 
 ### Moved sensors
